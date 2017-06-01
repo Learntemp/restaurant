@@ -1,0 +1,72 @@
+.restaurant {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header1 {
+  background-color: red;
+  flex: 1 100%;
+}
+
+.main {
+  background-color: #a4c2f4;
+  flex: 2;
+  order: 2;
+}
+
+.aside1{
+  background-color: #a4c2f4;
+  flex: 1;
+}
+
+.aside2 {
+  background-color: #a4c2f4;
+  flex: 1;
+  order: 3;
+}
+
+.footer1 {
+  background-color: red;
+  flex: 1 100%;
+  order: 4;
+}
+
+
+
+/*.header1, .main, .aside1, .aside2, .footer1 {
+  flex: 1 100%;
+}*/
+
+
+
+/*@media all and (min-width: 600px) {
+  .aside {
+    flex: 1;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .main {
+    flex: 2;
+  }
+
+  .aside1 {
+    order: 1;
+  }
+
+  .main {
+    order: 2;
+  }
+
+  .aside2 {
+    order: 3;
+  }
+
+  .footer1 {
+    order: 4;
+  }
+
+
+}*/
